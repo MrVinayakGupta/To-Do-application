@@ -1,10 +1,16 @@
 body {
-  font-family: Arial, sans-serif;
+  /* font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   display: flex;
   justify-content: center;
-  padding-top: 50px;
-  
+  padding-top: 50px; */
+  font-family: 'Inter', sans-serif;
+  background: radial-gradient(1000px 600px at 70% 20%, rgba(124, 92, 255, .15), transparent 60%), radial-gradient(800px 500px at 20% 80%, rgba(43, 108, 255, .12), transparent 55%), #0b0f1a;
+  color: #e5e9f7;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .todo-container {
