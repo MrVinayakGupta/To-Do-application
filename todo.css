@@ -4,6 +4,7 @@ body {
   display: flex;
   justify-content: center;
   padding-top: 50px;
+  
 }
 
 .todo-container {
@@ -11,7 +12,9 @@ body {
   padding: 20px;
   border-radius: 8px;
   width: 300px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow:
+    0 0 40px 8px rgba(124, 92, 255, .25),
+    0 0 80px 16px rgba(43, 108, 255, .18);
 }
 
 input {
