@@ -9,18 +9,22 @@ body {
   color: #e5e9f7;
   min-height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: center; 
   justify-content: center;
 }
 
+main{
+  
+}
 .todo-container {
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
   width: 300px;
-  box-shadow:
-    0 0 40px 8px rgba(124, 92, 255, .25),
-    0 0 80px 16px rgba(43, 108, 255, .18);
+  padding: 28px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(16, 21, 40, .92), rgba(16, 21, 40, .85));
+  border: 2px solid transparent;
+  background-clip: padding-box, border-box;
+  background-origin: border-box;
+  box-shadow: 0 0 40px rgba(124, 92, 255, .25), 0 0 80px rgba(43, 108, 255, .18);
 }
 
 input {
