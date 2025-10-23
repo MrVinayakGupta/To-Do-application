@@ -57,7 +57,7 @@ ul {
   list-style: none;
   padding: 0;
   margin-top: 20px;
-  width: 19em;
+  width: 18.5em;
 }
 
 li {
@@ -67,6 +67,7 @@ li {
   border-radius: 4px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   color: #252558;
 }
 
