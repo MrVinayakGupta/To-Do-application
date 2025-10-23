@@ -17,7 +17,7 @@ main{
   
 }
 .todo-container {
-  width: 300px;
+  width: min(500px, 90vw);
   padding: 28px;
   border-radius: 16px;
   background: linear-gradient(180deg, rgba(16, 21, 40, .92), rgba(16, 21, 40, .85));
