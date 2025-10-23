@@ -13,9 +13,7 @@ body {
   justify-content: center;
 }
 
-main{
-  
-}
+
 .todo-container {
   width: min(500px, 90vw);
   padding: 28px;
@@ -35,14 +33,23 @@ input {
   border-radius: 4px;
 }
 
-#add-task{
-  padding: 15px;
-  background-color: #28a745;
-  color: white;
+#add-task {
+  width: 8vw;
+  margin-left: 5%;
+  padding: 12px;
   border: none;
-  border-radius: 4px;
+  border-radius: 12px;
+  font-weight: 750;
   cursor: pointer;
+  background: linear-gradient(180deg, #3af079, #2ee66b);
+  color: #07140f;
+  box-shadow: 0 10px 24px rgba(46,230,107,.35), inset 0 -2px 0 rgba(0,0,0,.15);
+  transition: transform .05s, filter .15s;
 }
+
+#add-task:hover { filter: brightness(2.05); }
+#add-task:active { transform: translateY(1px); }
+
 
 button {
   padding: 10px;
@@ -57,7 +64,7 @@ ul {
   list-style: none;
   padding: 0;
   margin-top: 20px;
-  width: 18.5em;
+  width: 30.5em;
 }
 
 li {
