@@ -1,35 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>To-Do App</title>
   <link rel="stylesheet" href="todo.css">
   <!-- <link rel="stylesheet" href="sample.css"> -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
   <header>
-  <nav class="navbar">
-    <div class="logo">MyLogo</div>
-    <ul class="nav-links">
-      <li><a href="#">Contact Us</a></li>
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Login</a></li>
-      <li><a href="#">Sign-Up</a></li>
-    </ul>
-    <div class="user-profile">
-      <img src="user.jpg" alt="User" />
-    </div>
-  </nav>
-</header>
+    <nav class="navbar">
+      <div class="logo">
+        <i class="fa-solid fa-tornado"></i>TO-DO
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Sign-Up</a></li>
+      </ul>
+      <div class="user-profile">
+        <img src="user.jpg" alt="User" />
+      </div>
+    </nav>
+  </header>
   <main>
     <div class="todo-container">
-    <h1>My To-Do List</h1>
-    <input type="text" id="task-input" placeholder="Add a new task...">
-    <button id="add-task">Add</button>
-    <ul id="task-list"></ul>
-  </div>
+      <h1>My To-Do List</h1>
+      <input type="text" id="task-input" placeholder="Add a new task...">
+      <button id="add-task">Add</button>
+      <ul id="task-list"></ul>
+    </div>
   </main>
-  
+
   <script src="todo.js"></script>
 </body>
+
 </html>
