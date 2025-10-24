@@ -164,3 +164,41 @@ ul {
   text-decoration: line-through;
   color: green;
 }
+
+
+
+
+/* responsive */
+/* Hamburger icon */
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #e5e9f7;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: rgba(16, 21, 40, 0.95);
+    flex-direction: column;
+    align-items: center;
+    display: none;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .user-profile {
+    display: none;
+  }
+}

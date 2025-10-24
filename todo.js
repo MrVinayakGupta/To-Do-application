@@ -32,3 +32,11 @@ document.getElementById('add-task').addEventListener('click', function() {
   document.getElementById('task-list').appendChild(li);
   input.value = '';
 });
+
+
+
+// responsiveness
+  function toggleMenu() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('active');
+  }
