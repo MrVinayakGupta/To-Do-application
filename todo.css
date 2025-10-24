@@ -25,6 +25,18 @@ body {
   box-shadow: 0 0 40px rgba(124, 92, 255, .25), 0 0 80px rgba(43, 108, 255, .18);
 }
 
+.todo-container h1 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, #7c5cff, #2b6cff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 18px rgba(124,92,255,.35);
+}
+
 #task-input {
   width: 70%;
   padding: 12px 14px;
