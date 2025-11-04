@@ -36,6 +36,7 @@ header {
   font-weight: bold;
   color: #7c5cff;
   text-shadow: 0 0 10px rgba(124, 92, 255, 0.3);
+  cursor: pointer;
 }
 
 .nav-links {
