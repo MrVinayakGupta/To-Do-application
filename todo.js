@@ -1,6 +1,6 @@
 
-document.getElementById('add-task').addEventListener('click', function() {
-  const input = document.getElementById('task-input');
+document.getElementById('addTask').addEventListener('click', function() {
+  const input = document.getElementById('taskInput');
   const taskText = input.value.trim();
 
   if (taskText === '') return;
@@ -29,7 +29,7 @@ document.getElementById('add-task').addEventListener('click', function() {
   });
 
   li.appendChild(deleteBtn);
-  document.getElementById('task-list').appendChild(li);
+  document.getElementById('taskList').appendChild(li);
   input.value = '';
 });
 
@@ -37,6 +37,6 @@ document.getElementById('add-task').addEventListener('click', function() {
 
 // responsiveness
   function toggleMenu() {
-    const navLinks = document.querySelector('.nav-links');
+    const navLinks = document.querySelector('.navLinks');
     navLinks.classList.toggle('active');
   }
